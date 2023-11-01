@@ -9,7 +9,7 @@
     "typeRoots": [
       "./node_modules/@types"
     ],
-    "rootDir": ".",
+    "rootDir": "src",
     "lib": [
       "es2021"
     ],

@@ -7,7 +7,7 @@
       "./node_modules/@types",
       "./node_modules/@figma"
     ],
-    "rootDir": ".",
+    "rootDir": "src",
     "target": "es6",
     "lib": [
       "es2017",
