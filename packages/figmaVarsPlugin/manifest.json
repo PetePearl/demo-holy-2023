@@ -1,0 +1,17 @@
+{
+  "name": "Figma vars",
+  "id": "1288109175823132482",
+  "api": "1.0.0",
+  "main": "code.js",
+  "capabilities": [],
+  "enableProposedApi": false,
+  "editorType": [
+    "figma"
+  ],
+  "ui": "ui.html",
+  "networkAccess": {
+    "allowedDomains": [
+      "https://gitlab.com"
+    ]
+  }
+}

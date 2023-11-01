@@ -1,0 +1,42 @@
+{
+  "name": "@demo-holy/figma-vars-plugin",
+  "version": "1.0.0",
+  "description": "A plugin for Figma",
+  "license": "MIT",
+  "private": true,
+  "main": "code.js",
+  "scripts": {
+    "build": "rollup -c rollup.config.mjs && cp manifest.json lib"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-react": "^7.22.15",
+    "@babel/preset-typescript": "^7.23.2",
+    "@figma/plugin-typings": "^1.78.0",
+    "@linaria/rollup": "^3.0.0-beta.23",
+    "@linaria/shaker": "^3.0.0-beta.23",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "@rollup/plugin-replace": "^5.0.4",
+    "@types/react": "^18.2.29",
+    "@types/react-dom": "^18.2.14",
+    "rollup": "^2",
+    "rollup-plugin-css-only": "^4.3.0",
+    "rollup-plugin-typescript2": "^0.31.1",
+    "typescript": "^4.4.2",
+    "vite": "^3.2.7"
+  },
+  "dependencies": {
+    "@demo-holy/figma-vars": "1.0.0",
+    "@linaria/core": "^3.0.0-beta.22",
+    "@linaria/react": "^3.0.0-beta.22",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "workspaces": {
+    "nohoist": [
+      "@figma/plugin-typings"
+    ]
+  }
+}

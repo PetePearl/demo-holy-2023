@@ -1,0 +1,26 @@
+{
+  "include": [
+    "src"
+  ],
+  "compilerOptions": {
+    "typeRoots": [
+      "./node_modules/@types",
+      "./node_modules/@figma"
+    ],
+    "rootDir": ".",
+    "target": "es6",
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "noEmit": true,
+    "declaration": false,
+    "declarationDir": null,
+    "outDir": "./lib",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}

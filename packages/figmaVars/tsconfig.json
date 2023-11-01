@@ -1,0 +1,22 @@
+{
+  "include": [
+    "src"
+  ],
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "rootDir": ".",
+    "lib": [
+      "es2021"
+    ],
+    "target": "es2021",
+    "noEmit": false,
+    "declaration": true,
+    "declarationDir": "./lib",
+    "outDir": "./lib"
+  }
+}

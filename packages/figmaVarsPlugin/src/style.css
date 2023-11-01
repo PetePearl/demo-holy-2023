@@ -1,0 +1,13 @@
+body {
+  font-family: Inter, sans-serif;
+  font-size: 11px;
+  line-height: 16px;
+  margin: 0;
+  padding: 0;
+  color: var(--figma-color-text);
+}
+
+select, input, button {
+  font-size: inherit;
+  font-weight: inherit;
+}
